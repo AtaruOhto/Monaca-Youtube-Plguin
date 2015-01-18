@@ -56,7 +56,7 @@ monaca.youtube.playVideoWithStandAlonePlayer (videoId, developerKey, options);
 ### Playing Video With Installed Youtube App
 
 
-monaca.youtube.playVideoWithStandAlonePlayer (videoId, developerKey, options);
+monaca.youtube.playVideoWithInstalledYoutubeApp (videoId, options);
 ***
 
 * videoId (String) : Video ID.
