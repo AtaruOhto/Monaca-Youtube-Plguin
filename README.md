@@ -12,9 +12,9 @@
 
 ### Cordova
 
-cordova plugin add 
+cordova plugin add https://github.com/AtaruOhto/Monaca-Youtube-Plguin.git
 
-## How to use?
+## Usage
 
 ### Playing Video With Youtube Standalone Player
 
