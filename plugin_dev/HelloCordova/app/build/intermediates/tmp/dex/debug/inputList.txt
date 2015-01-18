@@ -1,0 +1,3 @@
+/Users/Ataru/Desktop/HelloCordova/app/build/intermediates/classes/debug
+/Users/Ataru/Desktop/HelloCordova/app/build/intermediates/pre-dexed/debug/YouTubeAndroidPlayerApi-67d2941bbe92bc0aaa715ec4c129d913038511c7.jar
+/Users/Ataru/Desktop/HelloCordova/app/build/intermediates/pre-dexed/debug/classes-c4f0817f482c28f0b8d514ca8491f6525fe82e7c.jar
