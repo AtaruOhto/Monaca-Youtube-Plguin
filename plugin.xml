@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<plugin xmlns="http://www.phonegap.com/ns/plugins/1.0"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    id="io.monaca.youtube.MonaYoutubePlayer"
+    version="1.0.0">
+
+    <name>MonaYoutubePlayer</name>
+    
+	<description>
+		Unofiicial Monaca Youtube Plugin for Android
+	</description>
+	
+	<license>Apache 2.0</license>
+    
+	<engines>
+      <engine name="cordova" version=">=3.1.0" />
+    </engines>	
+    <js-module src="www/monacaYoutube.js" name="monaca.youtube">
+      <clobbers target="monaca.youtube" />
+    </js-module>
+    
+    <!-- android -->
+    <platform name="android">
+        <config-file target="res/xml/config.xml" parent="/*">
+
+            <feature name="MonaYoutubePlayer">
+                <param name="android-package" value="io.monaca.youtube.MonaYoutubePlayer" />
+            </feature>
+
+        </config-file>
+
+        <source-file 
+            src="src/android/io/monaca/youtube/MonaYoutubePlayer.java"
+            target-dir="src/mobi/monaca/brightness" />
+
+        <source-file 
+            src="youtubeLibrary/YouTubeAndroidPlayerApi.jar" 
+            target-dir="libs" />
+
+    </platform>    
+</plugin>
