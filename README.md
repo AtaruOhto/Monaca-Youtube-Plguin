@@ -1,4 +1,4 @@
-# MonacaYoutube Plugin (Cordova Plugin)
+# Monaca Youtube Plugin (Cordova Plugin)
 
 > Unofficial Monaca Youtube Plugin for Android
 
