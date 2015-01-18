@@ -12,7 +12,7 @@
 
 ### Cordova
 
-cordova plugin add https://github.com/AtaruOhto/Monaca-Youtube-Plguin.git
+Use cordova plugin add commnad
 
 ## Usage
 
