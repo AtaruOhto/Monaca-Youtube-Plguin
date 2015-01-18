@@ -6,15 +6,15 @@
 
     <name>MonaYoutubePlayer</name>
     
-	<description>
-		Unofiicial Monaca Youtube Plugin for Android
-	</description>
-	
-	<license>Apache 2.0</license>
+    <description>
+        Unofiicial Monaca Youtube Plugin for Android
+    </description>
     
-	<engines>
+    <license>Apache 2.0</license>
+    
+    <engines>
       <engine name="cordova" version=">=3.1.0" />
-    </engines>	
+    </engines>  
     <js-module src="www/monacaYoutube.js" name="monaca.youtube">
       <clobbers target="monaca.youtube" />
     </js-module>
@@ -31,7 +31,7 @@
 
         <source-file 
             src="src/android/io/monaca/youtube/MonaYoutubePlayer.java"
-            target-dir="src/mobi/monaca/brightness" />
+            target-dir="src/io/monaca/youtube" />
 
         <source-file 
             src="youtubeLibrary/YouTubeAndroidPlayerApi.jar" 
