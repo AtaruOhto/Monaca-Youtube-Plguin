@@ -5,10 +5,10 @@
 
 ## Installation
 
+### Monaca
 
 1. Download This plugin.
 2. From Monaca Cordova Plugin Management Menu, upload this plugin to <a href="https://monaca.io/" target="_blank">Monaca</a>.
-
 
 ### Playing Video With Youtube Standalone Player
 
